@@ -1,5 +1,9 @@
+
+
+
 const sayHello = () => {
-    console.log("Git is Awesome")
+    const userInput = prompt("Please enter your name:")
+    console.log(`Hello ${userInput}`)
 }
 
 sayHello()
